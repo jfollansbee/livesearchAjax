@@ -1,0 +1,69 @@
+<html>
+<head>
+<script src="livesearch.js"></script>
+<link href="../style-sheet1.css" rel="stylesheet" type="text/css" media="all">
+
+<!--
+<style type="text/css"> 
+#livesearch
+  { 
+  margin:0px;
+  width:194px; 
+  }
+#txt1
+  { 
+  margin:0px;
+  } 
+</style>
+-->
+
+</head>
+
+<body>
+
+<p class="master-content">
+<!-- <script src="ajax/livesearch.js"></script> -->
+<table width="540" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="master-content" colspan="3" valign="top">
+Do you know a past crew member? Type a name to see if he/she is in our public database.
+</td>
+</tr>
+<tr>
+<td class="master-content" width="100" valign="top"><strong>Type a name:</strong><br />
+<form style="{ display: inline; }">
+<input type="text" id="txt1" size="12" onkeyup="showResult(this.value)"><div class="tiny-contentB" id="livesearch"></div>
+</form>
+</td>
+<td width="10" class="master-content" valign="top">
+&nbsp;
+</td>
+<td class="master-content" width="432"  valign="top">
+<div id="displayresult">
+
+<table width='432' border='0' cellspacing='0' cellpadding='1'>
+<tr>
+<td width='125' valign='top' class='master-content-gray'><strong>Name</strong></td>
+<td width='50' valign='top' class='master-content-gray' align='center'><strong>Ship</strong></td>
+<td width='200' valign='top' class='master-content-gray' align='center'><strong>Position</strong></td>
+<td width='57' valign='top' class='master-content-gray' align='center'><strong>Year</strong></td>
+</tr>
+</table>
+
+</div>
+</td>
+</tr>
+</table>
+</p>
+
+
+<!-- test code
+<form>
+<input type="text" id="txt1" size="30" onkeyup="showResult(this.value)"><div id="livesearch"></div>
+</form>
+
+<br />
+<div id="displayresult"></div>
+-->
+</body>
+</html>
